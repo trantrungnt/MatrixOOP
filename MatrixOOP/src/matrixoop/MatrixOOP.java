@@ -31,6 +31,7 @@ public class MatrixOOP {
             float[][] a = new float[m][n];
             Calculate oCalculate = new Calculate();
             oCalculate.inputMatrix(a, m, n);
+            oCalculate.displayMatrix(a, m, n);
             
             
         }catch(Exception e){

@@ -28,4 +28,14 @@ public class Calculate {
             System.out.println(e.toString());
         }
     }
+    
+    public void displayMatrix(float[][] a, int m, int n)
+    {
+        for(int i=0; i<m; i++)
+        {    
+            for(int j=0; j<n; j++)
+             System.out.print(a[i][j] + " ");
+            System.out.println();
+        }    
+    }
 }
