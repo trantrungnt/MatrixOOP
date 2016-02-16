@@ -18,6 +18,7 @@ public class MatrixOOP {
      */
     public static void main(String[] args) {
         int m, n;
+      
         
         
         try{
@@ -28,6 +29,8 @@ public class MatrixOOP {
             System.out.print("So cot n=");
             n = Integer.parseInt(oBufferedReader.readLine());
             float[][] a = new float[m][n];
+            Calculate oCalculate = new Calculate();
+            oCalculate.inputMatrix(a, m, n);
             
             
         }catch(Exception e){
